@@ -3,15 +3,17 @@ body {
 }
 .padre {
     display: flex;
-    background-color: blue;
+    background-color: rgb(23, 169, 206);
     width: 100vw;
     height: 100vh;
     justify-content: center;
     align-items: center;
 }
 .padre main {
-    width: 150px;
-    height: 225px;
+    border-radius: 15px;
+    width: 350px;
+    height: 420px;
     background-color: white;
-    border-radius: 10px;
+    
+
 }
