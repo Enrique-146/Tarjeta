@@ -1,3 +1,6 @@
+head {
+    display: block;
+}
 body {
     margin: 0;
 }
@@ -10,10 +13,24 @@ body {
     align-items: center;
 }
 .padre main {
+    position: relative;
     border-radius: 15px;
     width: 350px;
     height: 420px;
     background-color: white;
     
+}
 
+.attribution {
+    text-align: center;
+    
+}
+
+.fondo {
+    height: 250vh;
+    width: -25vw;
+    opacity: 75%;
+    size: 50%;
+    border-top: 0%;
+    
 }
