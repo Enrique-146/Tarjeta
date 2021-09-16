@@ -6,17 +6,17 @@ body {
 }
 .padre {
     display: flex;
-    background-color: rgb(23, 169, 206);
+    background-color: rgb(18, 130, 158);
     width: 100vw;
     height: 100vh;
     justify-content: center;
     align-items: center;
 }
 .padre main {
-    position: relative;
+    position: static;
     border-radius: 15px;
     width: 350px;
-    height: 420px;
+    height: 375px;
     background-color: white;
     
 }
@@ -28,7 +28,8 @@ body {
 
 .fondo {
     height: 250vh;
-    width: -25vw;
+    justify-content: center;
+    align-items: center;
     opacity: 75%;
     size: 50%;
     
